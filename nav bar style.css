@@ -1,0 +1,259 @@
+nav, header, footer{ display: block;
+
+}
+
+body {
+line-height: 1;
+    margin: 0;
+}
+.container { width: 100%;
+margin:auto;
+padding-top: 4%;
+    padding-bottom: 4%;}
+
+label {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 21px;
+    line-height: 1.2
+}
+
+
+ 
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+   
+}
+
+.col-1 {width: 8.33%}
+.col-2{width 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+* {box-sizing: border-box}
+
+
+
+div.leftside-col,  div.youtube {
+    margin-left: 20%
+    }
+h1.large {
+    color: darkblue;
+    font-size: 56px;
+    margin: 0;
+    line-height: 70px
+        
+}
+
+form h2 {
+    color: #fff;
+}
+
+input[type="text"]{
+    font-size: 20px;
+    width: 250px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px}
+
+
+  
+
+div#section1gradient  {
+       background: red;
+    background: -webkit-linear-gradient(aqua, yellow);
+        background: -o-linear-gradient(aqua, yellow)
+            background: -moz-linear-gradient(aqua, yellow)
+         background:linear-gradient(aqua, yellow)}
+
+div.box {margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+  box-shadow: 0 0 0 0.15px rgba(0,0,0,0.9)}
+
+div.icon {
+width: 100%
+}
+
+button {
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    color: antiquewhite;
+    background-color: blue;
+    margin: 5px;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 7px;   
+}
+
+.buttoncol12 {display: block;
+margin: auto}
+
+
+
+h1.section2header {
+    font-size: 50px;
+    text-align: center
+}
+
+div.col-7 p {
+    font-size: 22px;
+    padding: 20px}
+
+div.col-5 img {
+    display: block;
+    margin: auto;
+   box-shadow: -2px -2px 20px 2px rgba(0,0,0,0.5)}
+
+footer.myfooter {
+    background-color: darkslategrey;
+}
+
+footer.myfooter h1 {
+    font-size: 28px;
+    color: white;
+    
+}
+
+div.col-3 {
+    padding-left: 8%
+}
+
+footer.myfooter ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    }
+
+footer.myfooter ul li {
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    }
+
+/*######################## NAV BAr######*/
+nav {
+    width: auto;
+    margin; 0;
+}
+
+nav ul{
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    font-family: "Comic Sans MS, Sans, Sans Seriff";
+    min-height: 20px;
+    float: left;
+border: 2px  black}
+ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center; padding: 14px;
+    text-transform: uppercase;
+    color: black}
+ul li a:hover {
+    background-color: aqua;
+    color: azure
+    }
+ul li.dropdownicon {display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*###########mobile#######*/ 
+@media screen and (max-width:680px)
+    {
+        ul.topnav li:not(:nth-child(1)){display: none}
+    
+        ul.topnav li.dropdownicon {display: block;
+    float: right}
+    
+    ul.topnav.responsive li.dropdownicon {position: absolute;top: 0;
+    right: 0}
+    
+    ul.topnav.responsive { position: relative;
+    }
+    
+
+    
+    ul.topnav.responsive li{display: inline;
+        float: none;
+    }
+    
+    ul.topnav.repsosive li a {
+        display: block;
+        text-align: left;
+    }
+    
+ ul.topnav.responsive li a{
+    display: block;
+    text-align: left;  
+}
+
+    .col-6, .col-4, .col-7, .col-5 {width: 100%;
+    margin:0}
+    
+        div.devslopes {display: block; width: 50%}
+        
+    div.leftside-col,  div.youtube {margin: 15px;
+     ;}
+        
+input[type="text"]{width: 300px;
+        }
+        
+div.youtube iframe{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;  
+}
+ div.box {
+            display: block;
+        }
+
+        div.col-7 p {font-size: 19px} 
+        
+    
+}
+
+
+
+
